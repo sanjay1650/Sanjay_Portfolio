@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sanjay Cheerlancha — Java Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <div class="brand">
+          <div class="logo-sc">SC</div>
+          <span class="brand-name">Sanjay Cheerlancha</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#projects" class="nav-link">Portfolio</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="cta-group">
+          <a class="btn-primary" href="#contact">Let's Connect</a>
+          <button class="mobile-menu-btn" id="mobileBtn"
+            aria-label="open menu">☰</button>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h3 class="eyebrow">Hello — I'm</h3>
+          <h1 class="hero-title">Sanjay Cheerlancha</h1>
+          <p class="hero-sub">Java Full Stack Developer • Spring Boot • React •
+            MySQL • REST APIs</p>
+
+          <div class="hero-actions">
+            <a class="btn-primary" href="#projects">View Work</a>
+            <div class="social-links">
+              <a href="https://github.com/sanjay1650" target="_blank"
+                class="social-icon" aria-label="GitHub">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub" style="filter: invert(1);">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sanjay-cheerlancha-73267a316/"
+                target="_blank" class="social-icon" aria-label="LinkedIn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  alt="LinkedIn">
+              </a>
+            </div>
+          </div>
+
+          <ul class="hero-meta">
+            <li><strong>Email:</strong> sanjaycheerlancha@gmail.com</li>
+            <li><strong>Location:</strong> Siddipet, Telangana</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="card-portrait">
+            <div class="portrait-frame">
+              <img src="assets/profile.jpg" alt="Sanjay portrait" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-glow"></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-center">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          I'm Sanjay Cheerlancha, a passionate Java Full Stack Developer skilled
+          in Java,
+          Spring Boot, React.js, MySQL, REST APIs, and modern web architecture.
+          I enjoy building scalable backend systems and clean frontend
+          interfaces.
+        </p>
+        <ul class="about-list">
+          <li><strong>Education:</strong> B.Tech CSE — Class of 2025</li>
+          <li><strong>Location:</strong> Siddipet, Telangana</li>
+          <li><strong>Contact:</strong> +91 9347654729</li>
+        </ul>
+        <a href="#contact" class="btn-primary about-btn">Connect With Me</a>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Resume</h2>
+          <p>Check out my professional background and qualifications.</p>
+        </div>
+
+        <div class="resume-wrapper">
+          <div class="resume-card">
+            <div class="resume-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div class="resume-details">
+              <h3>Sanjay Cheerlancha</h3>
+              <p>Full Stack Developer Resume</p>
+            </div>
+            <div class="resume-actions">
+              <a href="./assets/sanjay-cheerlancha-fullstack-resume.pdf"
+                target="_blank"
+                class="btn-primary">View</a>
+              <a href="./assets/sanjay-cheerlancha-fullstack-resume.pdf"
+                download
+                class="btn-ghost">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <p>Selected projects showing full-stack & ML work.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-body">
+              <h3>Student Management System</h3>
+              <p>Spring Boot + React + MySQL — JWT authentication, CRUD, REST
+                APIs.</p>
+              <div class="card-actions">
+                <a
+                  href="https://github.com/sanjay1650/StudentManagemantSystem.git"
+                  class="link">Github</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-body">
+              <h3>Currency Converter</h3>
+              <p>React app integrating live exchange-rate API; responsive UI and
+                validations.</p>
+              <div class="card-actions">
+                <a href="https://github.com/sanjay1650/currency-converter.git"
+                  class="link">Github</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-body">
+              <h3>Patient Health Analysis</h3>
+              <p>Python ML models (Logistic Regression, Random Forest), Power BI
+                visualization.</p>
+              <div class="card-actions">
+                <a
+                  href="https://github.com/sanjay1650/Patients-health-analysis-Project1-.git"
+                  class="link">Github</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills & Tools</h2>
+          <p>The technologies I use to bring ideas to life.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"><span>Java</span></div>
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"><span>Spring Boot</span></div>
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"><span>React</span></div>
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"><span>MySQL</span></div>
+          <div class="skill-card"><img
+              src="https://cdn-icons-png.flaticon.com/512/8297/8297437.png"
+              alt="REST API" style="filter: invert(1);"><span>REST
+              APIs</span></div>
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg"
+              alt="Hibernate"><span>Hibernate</span></div>
+          <div class="skill-card"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"><span>Git</span></div>
+          <div class="skill-card"><img
+              src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+              alt="Postman"><span>Postman</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h2>Contact</h2>
+          <p>I'm open to roles and collaborations. Reach out and let's build
+            something great.</p>
+          <form id="contactForm" class="contact-form">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" rows="4" placeholder="Message"
+              required></textarea>
+            <div class="form-actions">
+              <button type="submit" class="btn-primary">Send Message</button>
+              <a class="btn-ghost"
+                href="mailto:sanjaycheerlancha@gmail.com">Email Me</a>
+            </div>
+          </form>
+        </div>
+        <aside class="contact-info">
+          <div class="info-block">
+            <h4>Phone</h4>
+            <p>+91 9347654729</p>
+          </div>
+          <div class="info-block">
+            <h4>Location</h4>
+            <p>Siddipet, Telangana</p>
+          </div>
+          <div class="info-block">
+            <h4>Social Profiles</h4>
+            <div class="social-links" style="margin-top: 10px;">
+              <a href="https://github.com/sanjay1650" target="_blank"
+                class="social-icon" aria-label="GitHub">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub" style="filter: invert(1);">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sanjay-cheerlancha-73267a316/"
+                target="_blank" class="social-icon" aria-label="LinkedIn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  alt="LinkedIn">
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Sanjay Cheerlancha — Java Full Stack Developer</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
