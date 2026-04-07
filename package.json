@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjay1650/Sanjay-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sanjay1650/Sanjay-Portfolio/issues"
+  },
+  "homepage": "https://github.com/sanjay1650/Sanjay-Portfolio#readme",
+  "dependencies": {
+    "lucide-react": "^1.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^6.0.2",
+    "vite": "^6.4.2"
+  }
+}

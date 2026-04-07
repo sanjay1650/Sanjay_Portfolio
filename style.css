@@ -13,7 +13,7 @@
 
 /* Base */
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html, body { min-height: 100vh; background-attachment: fixed; }
 
 body {
   margin: 0;
@@ -233,9 +233,10 @@ body {
   transition: transform 0.3s, box-shadow 0.3s; padding: 24px;
 }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); border-color: rgba(255, 255, 255, 0.1); }
+.project-body { display: flex; flex-direction: column; height: 100%; }
 .project-body h3 { font-family: var(--font-heading); margin: 0 0 10px; font-size: 20px; }
-.project-body p { color: var(--muted); font-size: 14px; line-height: 1.6; }
-.card-actions { margin-top: 16px; }
+.project-body p { color: var(--muted); font-size: 14px; line-height: 1.6; flex: 1; margin-bottom: 0px; }
+.card-actions { margin-top: auto; padding-top: 16px; }
 .link { color: var(--neon1); text-decoration: none; font-weight: 600; font-size: 14px; }
 
 /* SKILLS GRID */
