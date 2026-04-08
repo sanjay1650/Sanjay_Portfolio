@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import profileImg from './profile.jpg';
 
 const App: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -82,7 +83,7 @@ const App: React.FC = () => {
           <div className="hero-right">
             <div className="card-portrait">
               <div className="portrait-frame">
-                <img src="/profile.jpg" alt="Sanjay portrait" />
+                <img src={profileImg} alt="Sanjay portrait" />
               </div>
             </div>
           </div>
