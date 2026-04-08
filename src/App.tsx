@@ -82,7 +82,7 @@ const App: React.FC = () => {
           <div className="hero-right">
             <div className="card-portrait">
               <div className="portrait-frame">
-                <img src="/assets/profile.jpg" alt="Sanjay portrait" />
+                <img src="/public/profile.jpg" alt="Sanjay portrait" />
               </div>
             </div>
           </div>
