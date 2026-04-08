@@ -131,8 +131,8 @@ const App: React.FC = () => {
                 <p>Full Stack Developer Resume</p>
               </div>
               <div className="resume-actions">
-                <a href="/assets/sanjay-cheerlancha-fullstack-resume.pdf" target="_blank" rel="noreferrer" className="btn-primary">View</a>
-                <a href="/assets/sanjay-cheerlancha-fullstack-resume.pdf" download className="btn-ghost">Download</a>
+                <a href="/sanjay-cheerlancha-fullstack-resume.pdf" target="_blank" rel="noreferrer" className="btn-primary">View</a>
+                <a href="/sanjay-cheerlancha-fullstack-resume.pdf" download className="btn-ghost">Download</a>
               </div>
             </div>
           </div>
